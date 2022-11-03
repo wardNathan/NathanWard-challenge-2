@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 5px 5px;
+    text-align: center;
+    background-color: #9cffc2;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 5px 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.topy {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    background-size: 0px 100% 0px;
+}
+
+.topy a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 10px 80px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.code-ncard {
+    border-radius: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-ncard:hover {
+    box-shadow: inset 0px 0px 16px;
+    rgba:(232, 102, 236, 1), 0 0 15px 
+    var(--heliotrope); 
+}
+
+.first {
+    margin: 0 auto;
+}
+
+.abcard {
+    padding: 1px;
+    text-align: center;
+    background: #9cffc2;
+    font-size: 15px;
+}
+
+.abcard h2 {
+    padding: 0%;  
+}
+
+.pro {
+    display: flex;
+    flex-direction: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.card {
+    width: 75%;
+}
+
+img {
+    object-fit: fill;
+}
+
+.card img {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
