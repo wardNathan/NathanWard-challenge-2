@@ -19,3 +19,10 @@ N/A
 ## License
 
 MIT License
+
+## Link and Screenshot
+
+https://wardnathan.github.io/NathanWard-challenge-2/
+
+![screenshot](./assets/images/Screen Shot 2022-11-03 at 7.47.42 PM.png)
+
